@@ -204,7 +204,7 @@ View(data)
 ```
 
 ```{r}
-coinsurance<-ggplot(data, aes(x=insurance)) + geom_bar(fill='blue')+
+coinsurance<-ggplot(data, aes(x=insurance)) + geom_bar(fill='coral')+
 labs(x = "Co-Insurance Rate", y = "Count")+ ggtitle("Co-Insurance Rates") + theme(plot.title = element_text(hjust = 0.5))+ theme(legend.position="none")
 coinsurance
 ```
